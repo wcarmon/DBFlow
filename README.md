@@ -60,7 +60,7 @@ Add the library to the project-level build.gradle, using the apt plugin to enabl
     compile "net.zetetic:android-database-sqlcipher:${sqlcipher_version}@aar"
 
     // kotlin extensions
-    compile "com.github.Raizlabs.DBFlow:dbflow-kotlinextensions:${dbflow_version}"
+    compile "com.github.Raizlabs.DBFlow:dbflow-kotlinextensions:${dbflow_version}@aar"
   }
 
 // if you're building with Kotlin
